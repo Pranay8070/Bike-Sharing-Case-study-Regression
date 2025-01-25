@@ -1,52 +1,31 @@
-# Project Name
-> Outline a brief description of your project.
+# Bike-Sharing-Case-Study
 
+> Building a multiple linear regression model for the prediction of demand for shared bikes for BoomBikes. The model should be able to predict the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market.
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+## Steps:
 
-<!-- You can include any other section that is pertinent to your problem -->
+- **Reading, understanding, and visualizing the data**
+- **Preparing the data for modeling**
+    - Train - Test split
+    - Rescaling
+- **Training the Model**
+- **Residual Analysis**
+- **Predictions and evaluations on the test set**
 
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+## Problem Statement:
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short-term basis for a price or free. Many bike-share systems allow people to borrow a bike from a "dock," which is usually computer-controlled, wherein the user enters payment information, and the system unlocks it. This bike can then be returned to another dock belonging to the same system.
 
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+A US bike-sharing provider, BoomBikes, has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. The company is finding it very difficult to sustain in the current market scenario. Therefore, it has decided to come up with a mindful business plan to be able to accelerate its revenue as soon as the ongoing lockdown ends and the economy restores to a healthy state.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+## Model Quality:
 
+- **R-Squared:** 0.80
 
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+## Final Recommendations for the Company:
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
-
-## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+- The months **Jan, Jul, Sep, Nov, Dec** should be considered by the company as they have a higher demand compared to other months.
+- With an increase in temperature, the demand also increases; hence, the company should keep track of the weather conditions.
+- During the Winter season, the demand rises, so the company should be well-prepared to meet the high demand.
+- There would be fewer bookings during Light Snow or Rain; the company could probably use this time to service the bikes without having a business impact.
+- The company should focus on expanding its business during the Spring season.
